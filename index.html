@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Studio INTRA – Quellen</title>
+<meta name="description" content="Alle Quellen zu den Videos von Studio INTRA als PDF.">
+<style>
+  :root { --paper: #EAE6E3; --ink: #0F0F0E; --green: #2A9C61; --greenD: #1C7A49; --grid: #46423E; --grey: #8A847D; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--paper); color: var(--ink); font-family: Arial, Helvetica, sans-serif; line-height: 1.45;
+         background-image: linear-gradient(rgba(70,66,62,.09) 1px, transparent 1px), linear-gradient(90deg, rgba(70,66,62,.09) 1px, transparent 1px); background-size: 44px 44px; }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 16px 64px; }
+  .marke { display: inline-block; text-decoration: none; color: var(--ink); line-height: 1; }
+  .marke small { display: block; text-align: center; color: var(--green); font-weight: 700; font-size: 20px; }
+  .marke b { font-size: 56px; letter-spacing: -1px; }
+  h1 { font-family: "Courier New", monospace; font-size: 15px; letter-spacing: 4px; text-transform: uppercase; margin: 28px 0 6px; }
+  p.lead { margin: 0 0 28px; color: var(--grid); max-width: 60ch; }
+  ol { list-style: none; margin: 0; padding: 0; }
+  li a { display: flex; gap: 18px; align-items: center; text-decoration: none; color: var(--ink); background: #F3F0ED; border: 2px solid var(--ink);
+         padding: 18px 20px; margin-bottom: 14px; box-shadow: 6px 6px 0 rgba(15,15,14,.18); transition: transform .12s, box-shadow .12s; }
+  li a:hover, li a:focus-visible { transform: translate(-2px, -2px); box-shadow: 8px 8px 0 var(--green); outline: none; }
+  .nr { font-family: "Courier New", monospace; font-weight: 700; font-size: 13px; letter-spacing: 2px; color: var(--greenD); white-space: nowrap; }
+  .titel { font-weight: 700; font-size: 19px; flex: 1; }
+  .pdf { font-family: "Courier New", monospace; font-size: 12px; letter-spacing: 2px; background: var(--ink); color: var(--paper); padding: 6px 10px; white-space: nowrap; }
+  footer { margin-top: 36px; font-size: 14px; color: var(--grid); }
+  footer a { color: var(--greenD); font-weight: 700; }
+  @media (max-width: 520px) { li a { flex-wrap: wrap; gap: 8px; } .titel { flex-basis: 100%; order: 2; } .pdf { order: 3; } .marke b { font-size: 44px; } }
+</style>
+</head>
+<body>
+<main>
+  <a class="marke" href="https://www.youtube.com/@INTRA_DE" aria-label="Studio INTRA auf YouTube"><small>Studio</small><b>INTRA</b></a>
+  <h1>Quellen</h1>
+  <p class="lead">Zu jedem Video gibt es ein Quellendokument: jede Quelle mit Link und dem, was sie im Video belegt. Ein Klick öffnet das PDF.</p>
+  <ol>
+    <li><a href="quellen/01-rente.pdf" target="_blank" rel="noopener">
+      <span class="nr">VIDEO 01</span>
+      <span class="titel">Deine Rente ist ein Versprechen, das niemand halten kann</span>
+      <span class="pdf">PDF</span>
+    </a></li>
+  </ol>
+  <footer>Zu den Videos: <a href="https://www.youtube.com/@INTRA_DE">youtube.com/@INTRA_DE</a></footer>
+</main>
+</body>
+</html>
